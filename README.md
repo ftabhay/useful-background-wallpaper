@@ -37,6 +37,7 @@ For Hardware:
 ### Implementation
 For Software:
 # Prerequisites 
+ *program is built for windows machine* <br>
  *python need to be installed, if not install it from [here](https://www.python.org/downloads/)*
 # Installation
 ```bash
