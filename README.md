@@ -47,7 +47,7 @@ pip install Pillow pynput
 ```bash
 python Useful_background_wallpaper.py
 ```
- ## To start the program on bootup:
+ # To start the program on bootup:
   ### change the path of python program file to where you downloaded the file in [wall-start.bat](https://github.com/ftabhay/useful-background-wallpaper/blob/main/wall-start.bat) file and put that bat file in startup folder 
   ### ex: refer from [here](https://www.youtube.com/watch?v=5gvlt7N3yps)
 
