@@ -6,7 +6,7 @@ import os
 
 home = Path.home()
 word = ""
-bnr=ctypes.windll.user32.GetSystemMetrics(1)
+bnr = ctypes.windll.user32.GetSystemMetrics(1)
 a = 60
 b = 764
 
@@ -16,21 +16,21 @@ en = 0
 output_image_path = f"{home}\\bg.png"
 
 def get_screen_size():
-    """Get the size of the primary display."""
     user32 = ctypes.windll.user32
+    return user32.GetSystemMetrics(0) + 2000, user32.GetSystemMetrics(1) + 3000
+
 def create_black_image(size=None):
-    """Create a black image and save it to output_image_path."""
     if size is None:
-        size = get_screen_size()  # Get screen size if not provided
+        size = get_screen_size()
     img = Image.new('RGB', size, color='black')
     img.save(output_image_path)
 
 def change(text):
     img = Image.open(output_image_path)
     draw = ImageDraw.Draw(img)
-    myFont = ImageFont.truetype('arial.ttf', 100)  #
+    myFont = ImageFont.truetype('arial.ttf', 100)
     draw.text((250, 800), text, font=myFont, fill=(255, 0, 0))
-
+    img.save(output_image_path)
     ctypes.windll.user32.SystemParametersInfoW(20, 0, output_image_path, 3)
 
 def on_press(key):
@@ -60,7 +60,8 @@ def on_press(key):
             en = 0
             cou = 0
             word = ""
-            create_black_image() 
+            create_black_image()
+            ctypes.windll.user32.SystemParametersInfoW(20, 0, output_image_path, 3)
 
     except Exception as e:
         print(f"Error: {e}")
@@ -69,3 +70,4 @@ create_black_image()
 
 with Listener(on_press=on_press) as listener:
     listener.join()
+
