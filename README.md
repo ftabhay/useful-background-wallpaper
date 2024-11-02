@@ -49,9 +49,6 @@ pip install Pillow pynput
 python Useful_background_wallpaper.py
 ```
 
-### Project Documentation
-For Software:
-
 # Screenshots
 ![Screenshot1](https://github.com/ftabhay/useful-background-wallpaper/blob/main/screenshot.jpeg?raw=true)
 *Console showing keystrokes being captured*
