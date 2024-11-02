@@ -26,7 +26,6 @@ A dynamic program that monitors keystrokes and updates the desktop wallpaper wit
 ### Technologies/Components Used
 For Software:
 - **Languages used**: Python
-- **Frameworks used**: None
 - **Libraries used**: `Pillow`, `pynput`, `ctypes`, `pathlib`, `os`
 - **Tools used**: Python environment, image editing software for background
 
@@ -44,41 +43,28 @@ pip install Pillow pynput
 
 # Run
 ```bash
-python keylogger_desktop_changer.py
+python Useful_background_wallpaper.py
 ```
 
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
-![Screenshot1](screenshot1.png)
+# Screenshots
+![Screenshot1](https://github.com/ftabhay/useful-background-wallpaper/blob/main/screenshot.jpeg?raw=true)
 *Console showing keystrokes being captured*
 
-![Screenshot2](screenshot2.png)
+![Screenshot2](https://github.com/ftabhay/useful-background-wallpaper/blob/main/screenshot2.jpeg?raw=true)
 *Example wallpaper generated with text displayed*
 
-![Screenshot3](screenshot3.png)
+![Screenshot3](https://github.com/ftabhay/useful-background-wallpaper/blob/main/screenshot3.jpeg?raw=true)
 *Desktop background automatically updated with new input*
 
-# Diagrams
-![Workflow](workflow_diagram.png)
-*A flow diagram showing keystroke capture, text rendering on the image, and desktop update process*
-
-For Hardware:
-
-# Schematic & Circuit
-*No hardware needed for this software-based project*
-
-# Build Photos
-*Not applicable*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+[[demo video link here](https://raw.githubusercontent.com/ftabhay/useful-background-wallpaper/refs/heads/main/demo.mp4)]
 *A brief walkthrough of how the program logs input and updates the desktop*
 
-# Additional Demos
-*Coming soon!*
 
 ## Team Contributions
 - **Aaron Thomas**: Core coding, background updates, and `Pillow` integration.
@@ -86,7 +72,7 @@ For Hardware:
 - **Abellash C Mathew**: Documentation and testing.
 
 ---
-Made with ❤️ at TinkerHub Useless Projects 
+Made with ❤️ by Aaron Thomas
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
 ![Static Badge](https://img.shields.io/badge/UselessProject--24-24?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
