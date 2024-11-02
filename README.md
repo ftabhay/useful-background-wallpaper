@@ -36,6 +36,8 @@ For Hardware:
 
 ### Implementation
 For Software:
+# Prerequisites 
+ *python need to be installed, if not install it from [here](https://www.python.org/downloads/)*
 # Installation
 ```bash
 pip install Pillow pynput
@@ -54,10 +56,10 @@ For Software:
 *Console showing keystrokes being captured*
 
 ![Screenshot2](https://github.com/ftabhay/useful-background-wallpaper/blob/main/screenshot2.jpeg?raw=true)
-*Example wallpaper generated with text displayed*
+
 
 ![Screenshot3](https://github.com/ftabhay/useful-background-wallpaper/blob/main/screenshot3.jpeg?raw=true)
-*Desktop background automatically updated with new input*
+
 
 
 ### Project Demo
